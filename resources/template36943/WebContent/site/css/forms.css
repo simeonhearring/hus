@@ -1,0 +1,189 @@
+input[type="text"],input[type=password],textarea{font-family:Arial, Helvetica, sans-serif;font-size:12px;vertical-align:middle;font-weight:normal;margin:0;border:none;outline:none;}
+/* Main-Search-form */
+#main-search {
+	float:left;
+	padding:0 0 0 10px;
+}
+	#main-search label {
+		float:left;
+		color:#fff;
+		width:56px;
+		font-size:14px;
+		padding:7px 0 0 0;
+	}
+	#main-search input {
+		background:none;
+		border: none;
+		margin:1px 2px 0 0;
+		display:block;
+		outline:none;
+		float:left;
+		border-radius:5px;
+		background:#eee;
+		padding:13px 5px 11px 5px; 
+		width:182px;
+	}
+/*404 Search-form & Under Construction*/
+#page-404 #search-alt {
+	position:relative;
+}
+#page-404 #search-alt input {
+	width:212px; 
+	font-size:13px;
+	padding:11px 12px 12px 12px;
+	background:url(../images/form-tail-1.gif) repeat-x 0 0;
+	outline:none;
+	font-family: Arial, Helvetica, sans-serif;
+	display:block;
+	color:#4f5057;
+	margin:0 8px 0 0;
+	box-shadow:0 2px 2px #ababab;
+	border-radius:5px;
+	border-top:1px solid #ccc;
+	border-left:1px solid #ccc;
+	border-bottom:1px solid #828282;
+	border-right:1px solid #ccc;
+	float:left;
+}
+#page-404 #search-alt a {
+	float:left;
+	display:block;
+	margin:-2px 0 0 0;
+}
+#newsletter-form input {
+	width:212px; 
+	font-size:13px;
+	padding:11px 12px 12px 12px;
+	background:url(../images/form-tail-1.gif) repeat-x 0 0;
+	outline:none;
+	font-family: Arial, Helvetica, sans-serif;
+	display: inline-block;
+	color:#4f5057;
+	margin:0 6px 0 0;
+	box-shadow:0 2px 2px #ababab;
+	border-radius:5px;
+	border-top:1px solid #ccc;
+	border-left:1px solid #ccc;
+	border-bottom:1px solid #828282;
+	border-right:1px solid #ccc;
+}
+/* Contact form */
+#contact-form {
+	display:block; 
+	height:456px;
+	width:448px;
+	position:relative;
+}
+#contact-form label {
+	display:block; 
+	height:53px;
+	position:relative;
+}
+	#contact-form label.message {
+		height:auto;
+		position:relative;
+	}
+#contact-form span {
+	display:none;
+	color:#f00;
+	margin:0 0 0 5px;
+	font-size:11px;
+	line-height:14px;
+}
+#contact-form label span.errors {
+	display:block;
+	margin:0;
+	position:absolute;
+	right:0;
+	top:0;
+	width:120px;
+}
+	#contact-form label.message span.errors {
+		display:block;
+		position: relative;
+		overflow:hidden;
+		clear:both;
+		width:auto;
+	}
+#contact-form input {
+	width:302px; 
+	font-size:13px;
+	padding:11px 12px 12px 12px;
+	background:url(../images/form-tail-1.gif) repeat-x 0 0;
+	outline:none;
+	font-family: Arial, Helvetica, sans-serif;
+	display:block;
+	color:#4f5057;
+	margin:0;
+	box-shadow:0 2px 2px #ababab;
+	border-radius:5px;
+	border-top:1px solid #ccc;
+	border-left:1px solid #ccc;
+	border-bottom:1px solid #828282;
+	border-right:1px solid #ccc;
+	float:left;
+}
+#contact-form textarea {
+	height:206px;
+	width:422px;
+	font-size:13px;
+	padding:11px 12px 12px 12px;
+	background:url(../images/form-tail-2.gif) repeat-x 0 0;
+	outline:none;
+	font-family: Arial, Helvetica, sans-serif;
+	display:block;
+	color:#4f5057;
+	margin:0;
+	box-shadow:0 2px 2px #ababab;
+	border-radius:5px;
+	border-top:1px solid #ccc;
+	border-left:1px solid #ccc;
+	border-bottom:1px solid #828282;
+	border-right:1px solid #ccc;
+	overflow:auto;
+	resize:none;
+}
+#contact-form .btns {
+	padding:0;
+	position:absolute;
+	bottom:4px;
+	right:0;
+	height:auto;
+	width:auto;
+}
+
+.success {
+	display:none;
+	font-size:13px;
+	line-height:18px;
+	padding:0;
+	top:-18px;
+	left:0;
+	position:absolute;
+	word-spacing:-1px;
+	color:#4f5057;
+}
+
+#login-form fieldset{border:none}
+	#login-form .field{overflow:hidden;min-height:45px;height:auto !important;height:45px;padding:4px}
+		#login-form input[type=text],#login-form input[type=password]{
+			width:367px; 
+			font-size:13px;
+			padding:11px 12px 12px 12px;
+			background:url(../images/form-tail-1.gif) repeat-x 0 0;
+			outline:none;
+			font-family: Arial, Helvetica, sans-serif;
+			display:block;
+			color:#4f5057;
+			margin:0;
+			box-shadow:0 2px 2px #ababab;
+			border-radius:5px;
+			border-top:1px solid #ccc;
+			border-left:1px solid #ccc;
+			border-bottom:1px solid #828282;
+			border-right:1px solid #ccc;
+		}
+		#login-form input[type="checkbox"]{margin:0 10px 0 0;vertical-align:middle;}
+		#login-form a{float:right;}			
+				#login-form small{color:red;font-weight:bold;padding:0 0 0 5px}		
+		#login-form label[for=remember]{font-size:12px;color:#333;float:left;padding:10px 0 0 18px}	

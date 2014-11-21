@@ -1,0 +1,21 @@
+.button, .sf-menu li li.last a, .sf-menu > li.first, .sf-menu > li.last, .sf-menu li li li:first-child a, .social-links li a, .meta-info, #main-search input, #contact-form input, #contact-form textarea, #search-alt input, #newsletter-form input, #login-form input {position:relative; behavior:url(js/PIE.htc);}
+.jcarousel-prev, .jcarousel-next, #prev-1, #next-1 {behavior:url(js/PIE.htc);}
+#text_slider div{background:none !important}
+.cs-button-coin-slider {position:relative; behavior:url(js/PIE.htc)}
+#advanced ul li.trigger_adv > span, #error_message{behavior:url(js/PIE.htc);position:relative}
+.closebutton,.myclosebutton{behavior:url(js/PIE.htc);}
+.kwicks li{filter:alpha(opacity=50)}
+.kwicks li.active{filter:alpha(opacity=100)}
+*+html{overflow:auto;}
+*+html #constuction-box {margin-top:-245px;}
+*+html #intro-box{margin-top:-195px;}
+.content-box { position:relative; zoom:1;}
+#content, header .inner {position:relative; zoom:1;}
+header nav {background:url(../images/nav-bg.png) no-repeat 0 0;}
+*+html .sf-menu li li li:first-child a {margin:0 0 -1px 0;}
+.banners i, .banners span, .text-box, dl dd, .content-list li {position:relative; zoom:1;}
+.sf-menu > li > a {padding:33px 29px 34px 29px;letter-spacing:-1px;}
+.sf-menu > li.last > a {border-radius:0 6px 0 0; padding:33px 31px 34px 32px; position:relative; zoom:1;}
+footer .inner strong {margin:-2px 4px 0 0;}
+*+html .closebutton,.myclosebutton{padding:5px;}
+*+html #newsletter-form input {margin:-2px 6px 0 0;}

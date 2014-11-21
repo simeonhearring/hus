@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Simple Gallery</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Your description">
+    <meta name="keywords" content="Your keywords">
+    <meta name="author" content="Your name">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/idea.css">
+    <script src="js/jquery-1.7.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/highlight.js"></script>
+    <script src="js/html-xml.js"></script>
+	<!--[if lt IE 7]>
+      <div style=' clear: both; text-align:center; position: relative;'>
+        <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+          <img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+       </a>
+     </div>
+    <![endif]-->
+    <!--[if lt IE 9]>
+   		<script src="js/html5.js"></script>
+  		<link rel="stylesheet" href="css/ie.css"> 
+	<![endif]-->
+</head>
+<body id="add-page">
+<div class="main-bg">
+	<div class="bottom-bg">
+    	<div class="main-bg-glow">
+            <!--==============================header=================================-->
+            <header>
+                <div class="inner">
+                    <div class="meta-info">
+                        <div class="login">
+                            <a id="demo6">Login</a>
+                        </div>
+                        <form id="main-search" method="post">
+                            <label>Search</label>
+                            <input type="text" name="search">
+                            <a class="button" onclick="document.getElementById('main-search').submit()">search</a>
+                        </form>
+                    </div>
+                    <a href="index.html" class="logo">Hand of Hope</a>
+                </div>
+            <nav>
+                <ul class="sf-menu">
+                    <li class="first"><a href="index.html">Home</a></li>
+                    <li>
+                        <a href="404.html">Pages</a>
+                        <ul>
+                            <li><a href="under_construction.html">Under construction</a></li>
+                            <li><a href="intro.html">intro page</a></li>
+                            <li class="last"><a href="404.html">404 page</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="layouts.html">Layouts</a></li>
+                    <li><a href="typography.html">Typography</a></li>	
+                    <li class="current">
+                        <a href="misc.html">Interactive</a>
+                        <ul>
+                            <li>
+                                <a href="coin-slider.html">slider</a><ul>
+                                    <li><a href="coin-slider.html">coin slider</a></li>
+                                    <li class="last"><a href="kwicks.html">kwicks slider</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="functional-slider.html">functional slider</a></li>
+                            <li class="current"><a href="gallery-page1.html">simple gallery</a></li>
+                            <li><a href="gallery-page2.html">advanced gallery</a></li>
+                            <li class="last"><a href="misc.html">misc</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+    <!--==============================content================================-->
+    <section id="content">
+            	<div class="content-box-top">
+                <div class="content-box-bottom">
+                <div class="content-box">
+    	<div class="container_12">
+                             <div class="grid_12">
+                <h2>Simple gallery</h2>
+        	<!-- gallery begin -->
+            <div id="galleryfic_gallery">
+              <div id="gallery" class="content">
+                <div class="slideshow-container">
+                  <div id="slideshow" class="slideshow"></div>
+                  <div id="loading" class="loader"></div>
+                </div>
+              <div id="thumbs" class="navigation">
+                <ul class="thumbs noscript">
+                  <li><a class="thumb" href="images/page1-img1-big.jpg"><img src="images/thumbs/tfile_gall_1_1.jpg" alt=""></a></li>
+                  <li><a class="thumb" href="images/page1-img2-big.jpg"><img src="images/thumbs/tfile_gall_1_2.jpg" alt=""></a></li>
+                  <li><a class="thumb" href="images/page3-img3-big.jpg"><img src="images/thumbs/tfile_gall_1_3.jpg" alt=""></a></li>
+                  <li><a class="thumb" href="images/page4-img1-big.jpg"><img src="images/thumbs/tfile_gall_1_4.jpg" alt=""></a></li>
+                  <li><a class="thumb" href="images/page4-img2-big.jpg"><img src="images/thumbs/tfile_gall_1_5.jpg" alt=""></a></li>
+                  <li><a class="thumb" href="images/page5-img2-big.jpg"><img src="images/thumbs/tfile_gall_1_6.jpg" alt=""></a></li>
+                  <li><a class="thumb" href="images/page1-img1-big.jpg"><img src="images/thumbs/tfile_gall_1_1.jpg" alt=""></a></li>
+                  <li><a class="thumb" href="images/page1-img2-big.jpg"><img src="images/thumbs/tfile_gall_1_2.jpg" alt=""></a></li>
+                  <li><a class="thumb" href="images/page3-img3-big.jpg"><img src="images/thumbs/tfile_gall_1_3.jpg" alt=""></a></li>
+                  <li><a class="thumb" href="images/page4-img1-big.jpg"><img src="images/thumbs/tfile_gall_1_4.jpg" alt=""></a></li>
+                  <li><a class="thumb" href="images/page4-img2-big.jpg"><img src="images/thumbs/tfile_gall_1_5.jpg" alt=""></a></li>
+                  <li><a class="thumb" href="images/page5-img2-big.jpg"><img src="images/thumbs/tfile_gall_1_6.jpg" alt=""></a></li>
+                </ul>
+              </div>
+            </div>
+            </div>
+        	<!-- gallery end -->
+            <div class="wrapper">
+              <div class="tabs">
+                <ul class="nav">
+                  <li class="selected"><a href="#gallery1-code">Code</a></li>
+                  <li><a href="#gallery1-overview">How it works</a></li>
+                </ul>
+                <div id="gallery1-code" class="tab-content">
+                  <div class="inner">
+                    <pre><code>&lt;div class="wrapper" id="galleryfic_gallery"&gt;
+  &lt;div id="gallery" class="content"&gt;
+    &lt;div class="slideshow-container"&gt;
+      &lt;div id="loading" class="loader"&gt;&lt;/div&gt;
+      &lt;div id="slideshow" class="slideshow"&gt;&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div id="thumbs" class="navigation"&gt;
+    &lt;ul class="thumbs noscript"&gt;
+      &lt;li&gt;&lt;a class="thumb" href="images/big_pic1.jpg"&gt;&lt;img src="images/thumb1.jpg" alt=""&gt;&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a class="thumb" href="images/big_pic2.jpg"&gt;&lt;img src="images/thumb2.jpg" alt=""&gt;&lt;/a&gt;&lt;/li&gt;
+      ..........
+      &lt;li class="last"&gt;&lt;a class="thumb" href="images/big_pic6.jpg"&gt;&lt;img src="images/thumb6.jpg" alt=""&gt;&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+                  </div>
+                </div>
+                <div id="gallery1-overview" class="tab-content">
+                  <div class="inner">In order to create a gallery you will need:
+                    <ol>
+              <li>
+                First we need to create HTML markup for the gallery. The elements represented here are optional. Each <strong>&lt;div&gt;</strong> element defines the following gallery parts:
+            <pre><code>&lt;div id="loading"&gt;&lt;/div&gt;
+&lt;div id="slideshow"&gt;&lt;/div&gt;
+&lt;div id="caption"&gt;&lt;/div&gt;
+&lt;div id="thumbs"&gt;
+  ...
+&lt;/div&gt;
+</code></pre>
+          <strong>#controls</strong> – adds gallery navigation block;<br>
+          <strong>#loading</strong> – adds a block that displays a spinner image till gallery images are being loaded;<br>
+          <strong>#slideshow</strong> – adds big image block;<br>
+          <strong>#caption</strong> – adds image description block;<br>
+          <strong>#thumbs</strong> – thumbnail images block.</li>
+          <li>Then we build HTML markup for the <strong>#thumbs</strong> block:
+            <pre><code>&lt;div id="thumbs"&gt;
+  &lt;ul class="thumbs noscript"&gt;
+    &lt;li&gt;
+      &lt;a class="thumb" name="name" href="path/to/slide" title="title"&gt;
+        &lt;img src="path/to/thumbnail" alt="your image title"&gt;
+      &lt;/a&gt;
+    &lt;/li&gt;
+    ... (repeat for every image in the gallery)
+  &lt;/ul&gt;
+&lt;/div&gt;
+</code></pre>
+              </li>
+              <li>The link with <strong>.thumb</strong> class contains the path to the large image. Additionally you can add <strong>title</strong> and <strong>alt</strong> parameters.</li>
+              <li>In order to add a gallery item you need to duplicated an existing <strong>&lt;li&gt;</strong> element (like what you see above).</li>
+            </ol>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+            <div class="clear"></div>    
+            </div>
+                    </div>            	</div>
+                </div>
+            </section>
+    	</div>
+    </div>
+    <!--==============================footer=================================-->
+    <footer>
+        <div class="inner">
+        	<ul class="social-links">
+            	<li><a href="more.html" class="item-1 normaltip" title="Twitter"></a></li>
+                <li><a href="more.html" class="item-2 normaltip" title="Facebook"></a></li>
+                <li><a href="more.html" class="item-3 normaltip" title="Google+"></a></li>
+            </ul>
+        	<div class="fleft">
+                <strong>Hand of hope</strong> &copy; 2012 | <a href="index-7.html" class="privacy">Privacy Policy</a>
+            </div>
+            <div class="clear"></div>
+        </div>       
+    </footer>
+</div>
+<div id="dialog6" class="disable_masking"></div>
+</body>
+</html>
