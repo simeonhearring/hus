@@ -1,0 +1,5 @@
+List of Fonts used in template 
+
+HammersmithOne		http://www.google.com/webfonts#ChoosePlace:select 
+QuattrocentoSans-Regular	http://www.google.com/webfonts#ChoosePlace:select 
+
